@@ -1,50 +1,72 @@
-import { Paths } from "@/lib/pageroutes"
+import { Paths } from "@/lib/pageroutes";
 
 export const Documents: Paths[] = [
   {
     title: "Introduction",
     href: "/introduction",
-    heading: "Getting started",
-    items: [
-      {
-        title: "Installation",
-        href: "/installation",
-      },
-      {
-        title: "Setup",
-        href: "/setup",
-      },
-      {
-        title: "Changelog",
-        href: "/changelog",
-      },
-    ],
+    heading: "Pengenalan Awal Produk",
   },
   {
     spacer: true,
   },
   {
-    title: "Navigation",
-    href: "/navigation",
-    heading: "Documents",
-  },
-  {
-    title: "Structure",
-    href: "/structure",
+    title: "Penjelasan Produk",
+    href: "/markup",
+    heading: "Penjelasan Lanjutan",
     items: [
       {
-        title: "Deep",
-        href: "/deep",
+        title: "Analisis Dan Desain Perangkat Lunak",
+        href: "",
         items: [
           {
-            title: "Deeper",
-            href: "/deeper",
-            items: [
+            title:"Analisis Kebutuhan",
+            href:"",
+            items:[
               {
-                title: "Even deeper",
-                href: "/even-deeper",
+                title:"Business Requirement",
+                href:"/cards",
               },
-            ],
+              {
+                title:"Stakeholder Requirement",
+                href:"/filetree",
+              },
+              {
+                title:"System Requirement",
+                href:"/maths",
+              },
+              {
+                title:"Software Requirement",
+                href:"/tabs",
+              },
+            ]
+          },
+          {
+            title:"Diagram",
+            href:"",
+            items:[
+              {
+                title:"Use Case Diagram",
+                href:"/diagrams",
+              },
+              {
+                title:"Class Diagram",
+                href:"/lists",
+              },
+              {
+                title:"Flowchart",
+                href:"/notes",
+              },
+            ]
+          },
+          {
+            title:"Metode SDLC",
+            href:"",
+            items:[
+              {
+                title:"Scrum",
+                href:"/steps",
+              },
+            ]
           },
         ],
       },
@@ -54,46 +76,20 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Markdown",
-    href: "/markdown",
-    heading: "Components",
+    title: "Dokumentasi Wireframe",
+    href: "/structure",
+    heading: "Dokumentasi",
     items: [
       {
-        title: "Cards",
-        href: "/cards",
-      },
-      {
-        title: "Diagrams",
-        href: "/diagrams",
-      },
-      {
-        title: "Filetree",
-        href: "/filetree",
-      },
-      {
-        title: "Lists",
-        href: "/lists",
-      },
-      {
-        title: "Maths",
-        href: "/maths",
-      },
-      {
-        title: "Notes",
-        href: "/notes",
-      },
-      {
-        title: "Steps",
-        href: "/steps",
-      },
-      {
-        title: "Table",
-        href: "/table",
-      },
-      {
-        title: "Tabs",
-        href: "/tabs",
+        title: "Dokumentasi Sketsa",
+        href: "/deep",
+        items : [
+          {
+            title: "Dokumentasi Prototype",
+            href: "/deeper",
+          },
+        ]
       },
     ],
   },
-]
+];
