@@ -11,7 +11,7 @@ export const Documents: Paths[] = [
   },
   {
     title: "Penjelasan Produk",
-    href: "/markup",
+    href: "/markdown",
     heading: "Penjelasan Lanjutan",
     items: [
       {
