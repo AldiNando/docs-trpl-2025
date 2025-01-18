@@ -7,17 +7,17 @@ export default function Home() {
   return (
     <div className="min-h-[86.5vh] flex flex-col justify-center items-center text-center px-2 py-8">
       <h1 className="text-4xl font-bold mb-4 sm:text-7xl">
-        Documentation
+        Dokumentasi Website Pemilihan Online
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-        A Documentation platform. That&apos;s show explanation of my website.
+        Sebuah web Dokumentasi, Yang akan menampilkan penjelasan mendalam atas web saya
       </p>
       <div className="flex items-center gap-5">
         <Link
           href={`/docs${PageRoutes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
-          Get Started
+          Masuk Kedalam Penjelasan
         </Link>
       </div>
     </div>
